@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset= "UTF-8">
+	<title>MASKHAY CREACION DE SITIOS WEB</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sitio web de MASKHAY SAC, área de diseño y desarrollo de sitios web y publicidad online, dirigida especialmente a pequeñas y micro empresas"/>
+    <meta name="keywords" content="sitios web, páginas web, websites, diseño, desarrollo, pequeñas empresas, microempresas, publicidad, publicidad online"/>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    	
+</head>
+
+<body>
+   
+<header>
+    
+<nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left">
+            <img src="imagenes/LOGO%20MASKHAY.png" alt="Logo MASKHAY">
+          </a>
+            
+            <div class="navbar-brand">
+            <a href="index.html"><h1>MASKHAY Perú</h1></a> </div>
+         
+            
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expanded="false">
+            
+            <span class="sr-only">Desplegar/Ocultar Menú</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+     </div>
+    
+    <!-------MENU--------->
+    
+        <div id="navegacion" class="collapse navbar-collapse" >
+        
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="#">Contacto</a></li>
+        </ul>
+           
+        </div><!-- .collapse .navbar-collapse -->
+        
+    </div><!-- .container -->
+    
+    </nav><!-- #header-nav -->    
+    
+</header>
+    
+ 
+
+
+
+	<!-------JUMBOTRON--------->
+     
+<div id="main-content" class="container">
+    
+    <div class="jumbotron">
+        <img class="img-responsive" src="imagenes/Banner-nosotros.jpg"  alt="Imagen banner" >
+    </div> 
+        
+    </div>
+
+<!-------FORMULARIO--------->
+    
+
+    <form action="enviar.php" method="post">
+    
+    <h2>CONTACTO</h2>
+        
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    
+    <input type="text" name="telefono" placeholder="Teléfono">
+    
+    <input type="text" name="correo" placeholder="Correo electrónico" required>
+        
+    <textarea name="mensaje" placeholder="Escribe aquí tu mensaje" required></textarea>
+    
+    <input type="submit" value="ENVIAR" id="boton">
+    
+    </form>
+        
+    <p class="contacto__adicional">También puedes llamarnos al </br> (511) 9963 80885, </br></br>o escribirnos a </html><br> maskhayw@gmail.com</p>
+  
+
+
+
+ 
+<!-------FOOTER--------->
+    
+<footer>
+    
+    <div class="container">
+    
+        <div class="row">
+        <p class="copy">&copy; 2016 Todos los derechos reservados - MASKHAY SAC</p>
+       
+       </div>
+    
+        </div>
+    
+      
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,946 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+
+/*............HEADER..............*/
+
+#header-nav {
+    background-color: #2a2929;
+    border-radius: 0;
+    border: 0;
+    z-index: 100;
+    position: relative;
+    }
+
+
+.navbar-header img {
+   width: auto;
+   height: 40px;
+   margin-top: 5px;
+   margin-left: 5px;
+   float: left;
+    }
+
+.navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 100%;
+    }
+
+.navbar-brand h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: -7px;
+    }
+
+#nav-list {
+   background: rgba(51,51,51,0.9);
+   margin-top: 0;
+    }
+
+#nav-list a {
+    font-size: 1.15em;
+    color: #fff;
+    }
+
+#nav-list a:hover {
+    background: #fff;
+    color: #000;
+}
+
+ul.navbar-nav li.active a {
+    color: #000 !important;
+    
+}
+
+/*........responsive HEADER........*/
+
+@media (max-width: 450px) {
+  .navbar-brand h1 {
+    font-size: .8em;
+    top: -2px;
+    left: 2px;
+    }
+    
+    .navbar-default .navbar-toggle {
+        padding: 4.8px;
+        margin-top: 12px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .navbar-brand h1 {
+        left: 45px;
+    }
+    
+    #nav-list {
+        background: #2a2929;
+    }
+}
+
+@media (min-width: 1024px) {
+    #nav-list a {
+    font-size: 1.4em;
+    
+    } 
+    
+}
+
+/*..........JUMBOTRON..........*/
+
+.container .jumbotron {
+    box-shadow: 0 0 50px #000;
+    padding: 0;
+    border-radius: 0;
+    position: relative;
+    
+ }
+
+#texto1-imagen {
+    position: absolute;
+    top: 18%;
+    right: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+#quieres {
+    font-size: 5vw;
+}
+
+#nosotros {
+    margin-top: 5%;
+    font-size: 3.5vw;
+    text-align: right;
+    margin-right: 30px;
+}
+
+#porque {
+    font-size: 3.6vw;
+    margin-top: 20%;
+    background: rgba(20, 20, 20, 0.3);
+    box-shadow: 0px 3px 5px #292927;
+}
+
+#porque a {
+    color: rgba(156,194,75,0.8);
+}
+
+/*......responsive JUMBOTRON........*/
+
+
+@media (max-width: 330px) {
+#texto1-imagen {
+    top: 70px;
+    }
+    
+#quieres {
+    font-size: 6vw;
+    }
+    
+#nosotros {
+    font-size: 4vw;
+    margin-right: 5px;        
+    }
+    
+#porque {
+    font-size: 4.3vw;
+    margin-top: 15%;
+}
+     
+}
+
+@media (min-width: 331px) {
+ #texto1-imagen {
+    top: 80px;
+    }
+
+#nosotros {
+    margin-top: 10px;
+    margin-right: 5px;
+ }
+
+#porque {
+   margin-top: 22%;
+}   
+    
+}
+
+@media (min-width: 450px) {
+ #texto1-imagen {
+    top: 100px;
+    }
+
+#nosotros {
+    margin-top: 10px;
+    }
+
+#porque {
+    margin-top: 20%;
+}   
+    
+}
+@media (min-width: 540px) {
+   #texto1-imagen {
+    top: 100px;
+    }
+
+#nosotros {
+    margin-top: 10px;
+   }
+
+#porque {
+    margin-top: 22%;
+}   
+    
+}
+
+@media (min-width: 650px) {
+
+#texto1-imagen {
+    top: 120px;
+    }
+
+#nosotros {
+    margin-top: 30px;
+ }
+
+}
+
+@media (min-width: 768px) {
+  .container .jumbotron {
+      height: 478px;
+    }
+    #nosotros {
+        margin-right: 30px;
+    } 
+    #porque {
+    margin-top: 25%;
+}   
+}
+    
+@media (min-width: 800px) {
+   #nosotros {
+        margin-right: 40px;
+    }
+    
+    #porque {
+    margin-top: 20%;
+    }   
+}
+
+@media (min-width: 840px) {
+    #texto1-imagen {
+        width: 80%;
+    }
+    
+    #quieres {
+        font-size: 4.3vw;
+    }
+    
+    #nosotros {
+        font-size: 3.4vw;
+        margin-right: 0px;
+    }
+    
+   #porque {
+    font-size: 3.4vw;
+    margin-top: 26%;
+}    
+    
+}
+
+@media (min-width: 890px) {
+   #porque {
+    font-size: 3.3vw;
+    margin-top: 23%; 
+}
+}
+
+@media (min-width: 930px) {
+    #porque {
+    font-size: 3.4vw;
+    margin-top: 20%;
+}
+}
+
+@media (min-width: 951px) and (max-width:991px) {
+    #texto1-imagen {
+        width: 75%;
+    }
+   
+    #quieres {
+        font-size: 4.5vw;
+    }
+    
+    #nosotros {
+        font-size: 3.4vw;
+        margin-right: 0px;
+    }
+    
+   #porque {
+    font-size: 3.1vw;
+    margin-top: 22%;
+}     
+}
+
+@media (min-width: 992px) {
+    .container .jumbotron {
+        height: 475px;
+    }
+    
+    #texto1-imagen {
+        width: 95%;
+    }
+   
+    #quieres {
+        font-size: 5vw;
+    }
+    
+    #nosotros {
+        font-size: 3.5vw;
+        margin-right: 0px;
+    }
+    
+   #porque {
+    font-size: 3.5vw;
+    margin-top: 12%;
+}     
+}
+
+@media (min-width: 1031px) {
+  #texto1-imagen {
+        width: 87%;
+        top: 80px;
+    } 
+    
+    #porque {
+    font-size: 3.1vw;
+    margin-top: 17%;
+}
+    
+}
+
+@media (min-width: 1095px) {
+    #texto1-imagen {
+        width: 85%;
+        top: 90px;
+    }  
+    
+    #quieres {
+        font-size: 4.5vw;
+    }
+    
+    #nosotros {
+        font-size: 3.1vw;
+        margin-right: 0px;
+    }
+    
+   #porque {
+    font-size: 3.0vw;
+    margin-top: 15%;
+}       
+    }
+
+@media (min-width: 1125px) and (max-width: 1199px) {
+    #texto1-imagen {
+        width: 80%;
+    }
+    
+    #quieres {
+        font-size: 4.2vw;
+    }
+    
+    #nosotros {
+        font-size: 2.8vw;
+    }
+    
+    #porque {
+    font-size: 2.7vw;
+    margin-top: 16%;
+}     
+}
+@media (min-width: 1200px) {
+    .container .jumbotron {
+        height: 576px;
+    }
+    
+    #texto1-imagen {
+        width: 93%;
+    }
+   
+    #quieres {
+        font-size: 4.5vw;
+    }
+    
+    #nosotros {
+        font-size: 3.1vw;
+        margin-right: 0px;
+    }
+    
+    #porque {
+    font-size: 3.2vw;
+    margin-top: 18%;
+    }     
+    
+    }   
+ 
+@media (min-width: 1265px) {
+    #texto1-imagen {
+        width: 85%;
+    }
+    
+}  
+
+@media (min-width: 1330px) {
+    #porque {
+       font-size: 3vw;
+       margin-top: 15%; 
+    }
+}
+
+@media (min-width: 1365px) {
+    #texto1-imagen {
+        width: 80%;
+        top: 110px;
+    }
+    
+    #quieres {
+        font-size: 4.2vw;
+    }
+    #nosotros {
+        font-size: 2.4vw;
+        margin-right: 0px;
+    }
+    
+    #porque {
+    font-size: 2.5vw;
+    margin-top: 20%;
+    }         
+    
+}
+
+@media (min-width: 1400px) {
+    #texto1-imagen {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1485px) {
+    #texto1-imagen {
+        width: 70%;
+    } 
+     
+    #quieres {
+        font-size: 4vw;
+    }
+    
+    #nosotros {
+        font-size: 2.5vw;
+        margin-right: 0px;
+    }
+    
+    #porque {
+        font-size: 2.5vw;
+        margin-top: 18%;
+    }         
+        
+    }
+
+/*.......... SERVICIOS.........*/
+
+#subtitulo {
+    color: #fff;
+    font-size: 18px;
+    background: rgba(156,194,75,0.6);
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 18px;
+    margin-top: 8px;
+    }
+
+
+.post {
+        padding: 15px;
+        border-radius: 3px;
+        border: 2px solid #9d9e97;
+        margin-bottom: 15px;
+     }
+
+.post__img {
+        width: 90%;
+        display: block;
+        margin: auto;
+     }   
+
+.post__subtitulo {
+    text-align: center;
+    font-size: 16px;
+    }
+
+.post__txt {
+    text-align: justify;
+    font-size: 14px;
+    }
+
+/*......responsive SERVICIOS......*/
+
+@media (max-width: 330px) {
+#subtitulo {
+    font-size: 5.4vw;
+    padding: 2px, 2px;
+    margin-bottom: 18px;
+    margin-top: 7px;
+    }
+
+
+.post {
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #9d9e97;
+    margin-bottom: 15px;
+    }
+
+.post__img {
+     width: 85%;
+     display: block;
+     margin: auto;
+     }
+
+.post__subtitulo {
+    text-align: center;
+    font-size: 15px;
+    }
+
+.post__txt {
+    text-align: justify;
+    font-size: 13px;
+    }  
+}
+
+@media (min-width: 331px) {
+    #subtitulo {
+        font-size: 4.8vw;
+    }
+}
+
+@media (min-width: 380px) {
+    #subtitulo {
+        font-size: 4.6vw;
+    }
+    
+    .post__img {
+        width: 80%;
+        display: block;
+        margin: auto;
+     }
+
+    .post__subtitulo {
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .post__txt {
+        text-align: justify;
+        font-size: 3.8vw;
+    }  
+}
+
+@media (min-width: 515px) {
+  .post__img {
+        width: 77%;
+        display: block;
+        margin: auto;
+     }
+
+    .post__subtitulo {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .post__txt {
+        text-align: justify;
+        font-size: 2.8vw;
+    }    
+       
+}
+
+@media (min-width: 550px) {
+    #subtitulo {
+        font-size: 4.1vw;
+    }
+    
+    .post__img {
+        width: 72%;
+        display: block;
+        margin: auto;
+     }
+
+    .post__subtitulo {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .post__txt {
+        text-align: justify;
+        font-size: 2.8vw;
+    }  
+}
+
+@media (min-width: 700px) {
+    #subtitulo {
+        font-size: 3.6vw;
+    }
+    
+    .post__img {
+        width: 70%;
+        display: block;
+        margin: auto;
+     }
+
+    .post__subtitulo {
+        text-align: center;
+        font-size: 3.1vw;
+    }
+
+    .post__txt {
+        text-align: justify;
+        font-size: 2.5vw;
+    }  
+}
+
+
+@media (min-width: 768px) {
+     #subtitulo {
+        font-size: 3.8vw;
+    }
+                
+    .post {
+        padding: 15px;
+        border-radius: 3px;
+        border: 2px solid #9d9e97;
+        margin-bottom: 25px;
+        
+    }
+    
+    .post__img {
+        width: 40%;
+        float: left;
+        margin-top: 6px;
+      
+    }
+    
+    article .container {
+        width: 60%;
+        float: right;      
+      
+    }
+    
+    .post__subtitulo {
+        font-size: 3vw;
+        margin-top: 5px;
+    }
+
+    .post__txt {
+        font-size: 2vw;
+         margin-top: 10px;
+    }    
+    
+}
+
+@media (min-width: 930px) {
+     #subtitulo {
+        font-size: 3.1vw;
+    }
+    
+    .post__subtitulo {
+        font-size: 2.5vw;
+    }
+
+    .post__txt {
+        font-size: 1.6vw;
+        }    
+    }
+
+@media (min-width: 992px) {
+    #subtitulo {
+        font-size: 3.0vw;
+    }
+    
+    .post__subtitulo {
+        font-size: 2.5vw;
+        margin-top: 5px;
+        
+    }
+
+    .post__txt {
+        font-size: 1.8vw;
+         margin-top: 25px;
+    }    
+}
+    
+@media (min-width: 1200px) {
+    #subtitulo {
+        font-size: 2.5vw;
+        
+    }
+    
+    .post__subtitulo {
+        font-size: 2.3vw;
+        margin-top: 5px;
+        
+    }
+
+    .post__txt {
+        font-size: 1.8vw;
+         margin-top: 25px;
+    }    
+  }
+
+@media (min-width: 1450px) {
+   #subtitulo {
+        font-size: 2.3vw;
+        
+    }
+    
+    .post__subtitulo {
+        font-size: 2.1vw;
+              
+    }
+
+    .post__txt {
+        font-size: 1.5vw;
+    }     
+    
+}
+
+/*.............CONTACTO............*/
+
+.contactos {
+    background: #9d9e97;
+    padding: 0 35px 20px;
+    }
+
+#contacto {
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    top: 20px;
+     }
+
+#contacto h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 5.7vw;
+    }
+
+#contacto p {
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-size: 5.4vw;
+    }
+
+#contacto p span {
+    font-size: 4.5vw;
+  }
+
+#contacto a {
+    color: #9cc24b;
+    font-weight: bold;
+    }
+
+#contacto a:hover {
+    color: rgba(156, 194, 75, 0.5);
+    }
+
+hr {
+    display: none;
+}
+
+/*......responsive CONTACTO........*/
+
+@media (min-width: 331px) {
+    #contacto h3 {
+        font-size: 5.4vw;
+    }  
+    
+    #contacto p {
+        font-size: 5.1vw;
+    }
+    
+}
+
+@media (min-width: 480px) {
+   #contacto h3 {
+        font-size: 5vw;
+    }  
+    
+    #contacto p {
+        font-size: 4.5vw;
+    } 
+}
+
+@media (min-width: 515px) {
+    #contacto h3 {
+        font-size: 4.1vw;
+    }  
+    
+    #contacto p {
+        font-size: 3.6vw;
+    } 
+    
+    #contacto p span {
+    font-size: 3.4vw;
+  }
+}
+
+@media (min-width: 550px) {
+    #contacto h3 {
+        font-size: 4.1vw;
+    }  
+    
+    #contacto p {
+        font-size: 3.6vw;
+    } 
+    
+    #contacto p span {
+    font-size: 3.4vw;
+  }
+}
+
+@media (min-width: 700px) {
+  #contacto {
+        margin-bottom: 20px;
+        margin-left: auto;
+        border: none;
+       }
+    
+    #contacto h3 {
+        font-size: 3.4vw;
+    }
+    
+    hr {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    
+    #contacto p {
+        font-size: 2.8vw;
+    } 
+   
+    #contacto p span {
+        font-size: 2.5vw;
+    }
+}
+@media (min-width: 767px) {
+     #contacto h3 {
+        font-size: 3vw;
+    }  
+    
+    #contacto p {
+        font-size: 2.5vw;
+    } 
+   
+    #contacto p span {
+        font-size: 2.3vw;
+    }
+    
+}
+
+@media (min-width: 930px) {
+      #contacto h3 {
+        font-size: 2.7vw;
+    }  
+    
+    #contacto p {
+        font-size: 2.1vw;
+    } 
+   
+    #contacto p span {
+        font-size: 2vw;
+    }  
+}
+
+@media (min-width: 992px) {
+    hr {
+        display: none;
+    }
+    
+    #contacto {
+        border: 1px solid #fff;
+        margin: 0 10px 20px;
+        width: 31%;
+      }
+    
+    #contacto h3 {
+        font-size: 2.5vw;
+    }  
+    
+    #contacto p {
+        font-size: 2vw;
+    } 
+   
+    #contacto p span {
+        font-size: 1.7vw;
+    }
+}
+
+@media (min-width: 1450px) {
+    #contacto h3 {
+        font-size: 2vw;
+    }  
+    
+    #contacto p {
+        font-size: 1.6vw;
+    } 
+   
+    #contacto p span {
+        font-size: 1.4vw;
+    }
+}
+
+
+/*..............FOOTER..............*/
+
+.copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px solid #5e5f56;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*......responsive FOOTER............*/
+
+@media (min-width: 1024px) {
+    .copy {
+        font-size: 15px;
+    }
+    
+}
+
